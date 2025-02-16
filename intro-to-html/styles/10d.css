@@ -1,0 +1,68 @@
+body {
+  font-family: arial;
+}
+
+.friends-box {
+  display: inline-block;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 15px;
+  width: 200px;
+}
+
+.dp {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.mutual-div {
+  display: inline-block;
+  vertical-align: middle;
+  color: rgb(100, 100, 100);
+  margin-top: 10px;
+  margin-left: 8px;
+}
+
+.mutual-dp {
+  display: inline-block;
+  height: 28px;
+  width: 28px;
+  object-fit: cover;
+  border-radius: 14px;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+.mutual-txt {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.add-button {
+  margin-top: 10px;
+  display: block;
+  background-color: rgb(24, 119, 242);
+  color: white;
+  border: none;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 4px;
+  font-size: 15px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.name {
+  margin-left: 8px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 17px;
+}

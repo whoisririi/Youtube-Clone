@@ -1,0 +1,26 @@
+.stretch-button {
+  background-color: green;
+  border: none;
+  color: white;
+  transition: padding 0.5s;
+  cursor: pointer;
+}
+
+.stretch-button:hover {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.shadow-button {
+  background-color: green;
+  border: none;
+  color: white;
+  transition: padding 0.5s;
+  cursor: pointer;
+}
+
+.shadow-button:active {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}

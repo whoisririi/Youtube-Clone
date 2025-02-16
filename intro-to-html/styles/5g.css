@@ -1,0 +1,25 @@
+p {
+  font-family: arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.p-email {
+  margin-bottom: 10px;
+}
+.email-txt {
+  font-weight: bold;
+}
+
+.time-txt {
+  color: gray;
+}
+
+.content {
+  width: 500px;
+}
+
+.blue-txt {
+  color: blue;
+  cursor: pointer;
+}

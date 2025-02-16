@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 12 exercises</title>
+  </head>
+  <body>
+    <!--1-->
+    <div style="display: flex">
+      <div style="background-color: lightblue; width: 200px">200px</div>
+      <div style="background-color: lightpink; width: 75px">75px</div>
+    </div>
+
+    <!--2-->
+    <div style="margin-top: 30px; display: flex; flex-direction: row">
+      <div style="background-color: lightblue; width: 50px">item 1</div>
+      <div style="background-color: lightpink; flex: 1">item 2</div>
+      <div style="background-color: lightblue; width: 75px">item 3</div>
+    </div>
+
+    <!--3-->
+    <div
+      style="
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      "
+    >
+      <div style="background-color: lightpink">item 1</div>
+      <div style="background-color: lightpink">item 2</div>
+      <div style="background-color: lightpink">item 3</div>
+      <div style="background-color: lightpink">item 4</div>
+    </div>
+
+    <!--4-->
+    <div
+      style="
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        border-color: gray;
+        margin-top: 30px;
+        border-style: solid;
+        justify-content: space-between;
+        align-items: center;
+      "
+    >
+      <div style="background-color: lightpink">item1</div>
+      <div style="background-color: lightpink">item2</div>
+    </div>
+
+    <!--5-->
+    <div class="container">
+      <!--Home-->
+      <div class="flexbox">
+        <div class="text">Home</div>
+        <div class="notifications">14</div>
+      </div>
+      <!--Notifications-->
+      <div class="flexbox">
+        <div class="text">Notifications</div>
+        <div class="notifications">3</div>
+      </div>
+      <!--Messages-->
+      <div class="flexbox">
+        <div class="text">Messages</div>
+        <div class="notifications">5</div>
+      </div>
+    </div>
+
+    <!--6-->
+    <!--row 1-->
+    <div class="row">
+      <img src="imgs/icon1.jpg" alt="" class="icon" />
+      <div class="info">
+        <p class="name">Naoi Rei</p>
+        <p class="username">reinyourheart</p>
+        <p class="category">Popular</p>
+      </div>
+      <button class="follow-button">Follow</button>
+    </div>
+    <!--row 2-->
+    <div class="row">
+      <img src="imgs/icon4.jpg" alt="" class="icon" />
+      <div class="info">
+        <p class="name">Jang Wonyoung</p>
+        <p class="username">foreveryoung</p>
+        <p class="category">Popular</p>
+      </div>
+      <button class="follow-button">Follow</button>
+    </div>
+    <!--row 3-->
+    <div class="row">
+      <img src="imgs/icon3.jpg" alt="" class="icon" />
+      <div class="info">
+        <p class="name">Ifa Delarosa</p>
+        <p class="username">ifadlrs</p>
+        <p class="category">Popular</p>
+      </div>
+      <button class="follow-button">Follow</button>
+    </div>
+    <!--end of exercise 6-->
+    <br />
+
+    <!--7-->
+    <div class="header">
+      <div class="left-section">
+        <p class="home-txt">Home</p>
+      </div>
+      <div class="middle-section">
+        <input
+          type="text"
+          name=""
+          id=""
+          placeholder="Search"
+          class="search-box"
+        />
+      </div>
+      <div class="right-section">
+        <button class="download-button">Download</button>
+      </div>
+    </div>
+
+    <!--13a-->
+    <div class="flexbox-13">
+      <div class="item1"><p class="item1-p">item 1</p></div>
+      <div class="item2"></div>
+    </div>
+
+    <!--13b-->
+    <div class="flexbox-13b">
+      <div class="column1"></div>
+      <div class="column2">
+        <p class="row1-txt">row 1</p>
+        <div class="row2-div">
+          <p class="row2-txt">row 2</p>
+          <p class="row2-txt">row 2</p>
+        </div>
+      </div>
+    </div>
+
+    <!--13c-->
+    <div></div>
+  </body>
+
+  <style>
+    /*css for exercise 2 lesson 14*/
+
+    .row2-txt {
+      background-color: black;
+      color: white;
+    }
+
+    .row2-div {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 15px;
+    }
+
+    .flexbox-13b {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .column1 {
+      background-color: lightpink;
+      width: 100px;
+    }
+
+    .column2 {
+      width: 200px;
+      background-color: lightblue;
+    }
+
+    /*css for exercise 1 lesson 13*/
+
+    .item1-p {
+      background-color: black;
+      color: white;
+    }
+
+    .flexbox-13 {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: row;
+      height: 50px;
+    }
+
+    .item1 {
+      display: flex;
+      background-color: lightpink;
+      width: 100px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .item2 {
+      display: flex;
+      background-color: lightblue;
+      width: 200px;
+    }
+
+    /*css for exercise 7*/
+
+    .download-button {
+      background-color: rgb(166, 113, 213);
+      border-color: white;
+      color: white;
+      border-style: solid;
+      border-width: 1.5px;
+      font-size: 15px;
+      font-weight: bold;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    .header {
+      background-color: rgb(166, 113, 213);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      height: 70px;
+      width: 1000px;
+      padding-left: 15px;
+      padding-right: 15px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+    }
+
+    .home-txt {
+      font-size: 17px;
+      font-weight: bold;
+    }
+
+    .search-box {
+      background-color: rgb(243, 239, 247);
+      border: none;
+      flex: 1;
+      margin-left: 70px;
+      margin-right: 35px;
+      width: 500px;
+      height: 30px;
+      border-radius: 30px;
+      padding-left: 15px;
+    }
+
+    /*css for exercise 6*/
+    .follow-button {
+      background-color: rgb(0, 145, 255);
+      color: white;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      font-size: 17px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 6px;
+      padding-top: 6px;
+    }
+    .info {
+      font-family: arial;
+      margin-right: 50px;
+      width: 200px;
+    }
+
+    .category {
+      color: rgb(173, 173, 173);
+      font-size: 14px;
+    }
+
+    .name {
+      font-size: 17px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .username {
+      color: rgb(173, 173, 173);
+      font-size: 17px;
+      margin-bottom: 5px;
+    }
+    p {
+      margin: 0;
+    }
+
+    .icon {
+      width: 65px;
+      height: 65px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 35px;
+      margin-right: 15px;
+    }
+
+    .row {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    /*end of css for exercise 6*/
+
+    /*css for exercise 5*/
+    .container {
+      margin-top: 30px;
+      border-color: rgb(197, 197, 197);
+      border-style: solid;
+      border-width: 1.5px;
+      border-radius: 6px;
+      width: 300px;
+      font-family: arial;
+      margin-bottom: 30px;
+    }
+
+    .flexbox {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+
+    .notifications {
+      background-color: rgb(0, 119, 255);
+      color: white;
+      font-weight: bold;
+      border: none;
+      border-radius: 13px;
+      font-size: 15px;
+      padding-left: 12px;
+      padding-right: 12px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      /*end css for exercise 5*/
+    }
+
+    .text {
+      font-size: 17px;
+    }
+    /*end css for exercise 5*/
+  </style>
+</html>

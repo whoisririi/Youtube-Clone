@@ -1,0 +1,51 @@
+.grid {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.friend-box {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  margin-right: 15px;
+}
+
+.icon {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+p,
+button {
+  font-family: arial;
+  margin-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 19px;
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+
+.mutuals {
+  color: gray;
+}
+
+.add-button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(0, 106, 255);
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding-left: 23px;
+  padding-right: 23px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}

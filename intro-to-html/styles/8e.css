@@ -1,0 +1,46 @@
+.header {
+  font-size: 40px;
+  font-weight: 500;
+  font-family: Arial;
+  margin-left: 2px;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  border: none;
+  background-color: rgb(234, 234, 234);
+  height: 40px;
+  width: 400px;
+  font-size: 17px;
+  padding-left: 20px;
+  margin-left: 2px;
+}
+
+.destination-box {
+  margin-bottom: 30px;
+}
+
+.req-button {
+  margin-right: 15px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.sched-button {
+  background-color: rgb(234, 234, 234);
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

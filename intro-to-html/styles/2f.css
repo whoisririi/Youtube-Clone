@@ -1,0 +1,63 @@
+.home-link {
+  color: rgb(0, 113, 133);
+  font-size: 20px;
+}
+
+.home-link:hover {
+  color: brown;
+}
+
+.item-head {
+  font-weight: bold;
+  font-size: 33px;
+}
+
+.price {
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.delivery-paragraph {
+  font-size: 20px;
+}
+
+.atc-button {
+  background-color: rgb(255, 216, 20);
+  border: none;
+  border-radius: 50px;
+  font-size: 19px;
+  height: 42px;
+  width: 153px;
+  margin-right: 15px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.atc-button:hover {
+  background-color: rgb(226, 192, 22);
+}
+
+.atc-button:active {
+  opacity: 0.5;
+}
+
+.buy-button {
+  background-color: rgb(255, 164, 28);
+  border: none;
+  border-radius: 50px;
+  font-size: 19px;
+  height: 42px;
+  width: 153px;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: background-color 0.15s, opacity 0.15s;
+}
+
+.buy-button:hover {
+  background-color: rgb(222, 141, 19);
+}
+
+.buy-button:active {
+  opacity: 0.7;
+}

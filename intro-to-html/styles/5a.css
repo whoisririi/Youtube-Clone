@@ -1,0 +1,84 @@
+.a {
+  font-family: Tahoma;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.head-b {
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.sale-txt {
+  margin-top: 5px;
+  margin-bottom: 50px;
+  color: red;
+  font-size: 20px;
+}
+
+.c-header {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.c-subtxt {
+  font-family: Verdana;
+  color: gray;
+  margin-top: 2px;
+  margin-bottom: 22px;
+  font-size: 14px;
+}
+
+.c-desc {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Verdana;
+  font-size: 16px;
+  width: 300px;
+}
+
+.c-button {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  background-color: green;
+  color: white;
+  font-size: 14px;
+  border: none;
+  border-radius: 10px;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.d-header {
+  text-align: center;
+  font-weight: bold;
+  font-family: arial;
+  font-size: 35px;
+  margin-bottom: 0;
+}
+
+.d-desc {
+  text-align: center;
+  font-family: arial;
+  font-size: 20px;
+}
+
+.d-link {
+  text-align: center;
+  color: blue;
+  cursor: pointer;
+  font-family: arial;
+  font-size: 20px;
+}
+
+.d-link:hover {
+  text-decoration: underline;
+}

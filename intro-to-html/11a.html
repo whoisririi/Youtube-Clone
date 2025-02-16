@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 11</title>
+
+    <!--css-->
+    <style>
+      .grid {
+        display: grid;
+        grid-template-columns: 200px 75px;
+        margin-bottom: 20px;
+      }
+
+      .grid1 {
+        background-color: lightblue;
+      }
+
+      .grid2 {
+        background-color: lightpink;
+      }
+
+      .grid2 {
+        display: grid;
+        grid-template-columns: 50px 1fr 75px;
+      }
+
+      .grid3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        row-gap: 10px;
+        column-gap: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!--11a-->
+    <div class="grid">
+      <div class="grid1">200px</div>
+      <div class="grid2">75px</div>
+    </div>
+
+    <!--11b-->
+    <div class="grid2">
+      <div class="col1" style="background-color: lightblue">col1</div>
+      <div class="col2" style="background-color: lightpink">col2</div>
+      <div class="col3" style="background-color: lightblue">col3</div>
+    </div>
+
+    <br />
+
+    <!--11c-->
+    <div class="grid3">
+      <div style="background-color: lightcoral">col1</div>
+      <div style="background-color: lightcoral">col2</div>
+      <div style="background-color: lightcoral">col3</div>
+      <div style="background-color: lightcoral">col4</div>
+
+      <div style="background-color: lightcoral">col1</div>
+      <div style="background-color: lightcoral">col2</div>
+      <div style="background-color: lightcoral">col3</div>
+      <div style="background-color: lightcoral">col4</div>
+    </div>
+  </body>
+</html>

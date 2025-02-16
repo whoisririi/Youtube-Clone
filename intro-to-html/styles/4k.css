@@ -1,0 +1,61 @@
+.one-button {
+  background-color: green;
+  border: none;
+  color: white;
+  font-size: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: padding 0.15s, margin 0.15s;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.one-button:hover {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.two-button {
+  background-color: green;
+  border: none;
+  color: white;
+  font-size: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  transition: padding 0.15s, margin 0.15s;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.two-button:hover {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.three-button {
+  background-color: green;
+  border: none;
+  color: white;
+  font-size: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: padding 0.15s, margin 0.15s;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.three-button:hover {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
