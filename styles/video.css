@@ -1,15 +1,38 @@
 .thumbnail {
   width: 100%;
+  aspect-ratio: 16 / 9; /* Maintain a 16:9 aspect ratio */
+  object-fit: cover; /* Ensures the image covers the container without distortion */
+  border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(300px, 1fr)
+  ); /* Adjust minmax values as needed */
+  gap: 16px; /* Combined gap for rows and columns */
+  padding: 20px; /* Add padding to prevent content from touching the edges */
 }
 
 .video-info-grid {
   display: grid;
-  grid-template-columns: 50px 1fr;
+  grid-template-columns: 50px 1fr; /* Profile picture takes 50px, video info takes the rest */
+  gap: 10px; /* Add spacing between profile picture and video info */
+  align-items: start; /* Align items to the top */
 }
 
 .profile-picture {
-  width: 36px;
-  border-radius: 50px;
+  width: 36px; /* Fixed width */
+  height: 36px; /* Fixed height */
+  border-radius: 50%; /* Make it circular */
+  object-fit: cover; /* Ensure the image fits properly */
+}
+
+.video-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px; /* Add spacing between title, author, and stats */
 }
 
 .video-title {
@@ -17,30 +40,20 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
-  margin-bottom: 7px;
+  margin-bottom: 0; /* Remove bottom margin */
   color: black;
 }
 
-.thumbnail-row {
-  margin-bottom: 7px;
-  position: relative;
-}
-
-.video-stats,
-.video-author {
+.video-author,
+.video-stats {
   font-size: 14px;
   color: rgb(96, 96, 96);
+  margin: 0; /* Remove default margins */
 }
 
-.video-author {
-  margin-bottom: 4px;
-}
-
-.video-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 16px;
-  row-gap: 40px;
+.thumbnail-row {
+  margin-bottom: 8px; /* Add spacing between thumbnail and video info */
+  position: relative;
 }
 
 .video-time {
